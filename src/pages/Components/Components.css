@@ -1,0 +1,76 @@
+#root {
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #b66f6f;
+  }
+  
+  .title {
+    color: #640969;
+  }
+  
+  .value {
+    font-size: larger;
+    font-weight: bold;
+  
+  }
+  
+  .main-container{
+    border-radius: 1px solid;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    width: 800px;
+    background-image: url('./img.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+  }
+  
+  .top-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  
+  
+  
+  .components-top-1{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .components-top{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .components-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
